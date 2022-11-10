@@ -6,7 +6,7 @@ import (
 	"net/http"
 )
 
-// Erro representa a respota de erro da API
+// ErroAPI representa a resposta de erro da API
 type ErroAPI struct {
 	Erro string `json:"erro"`
 }
