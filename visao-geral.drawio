@@ -1,0 +1,128 @@
+<mxfile host="65bd71144e">
+    <diagram id="RWvEkzyk86XV6dCm75ku" name="Page-1">
+        <mxGraphModel dx="884" dy="617" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="34" value="" style="group" parent="1" vertex="1" connectable="0">
+                    <mxGeometry x="390" y="10" width="450" height="450" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="34" vertex="1">
+                    <mxGeometry width="450" height="450" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="PACOTES PARA API" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" parent="34" vertex="1">
+                    <mxGeometry x="150" width="130" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="PACOTES" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.externalEntity;fontFamily=Courier New;fontSize=10;fillColor=#003366;" parent="34" vertex="1">
+                    <mxGeometry x="51.5" y="30" width="97" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="Principais" style="whiteSpace=wrap;html=1;fontSize=10;fontFamily=Courier New;fillColor=#4C0099;dashed=0;" parent="34" vertex="1">
+                    <mxGeometry x="250" y="30" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="" style="edgeStyle=none;html=1;fontFamily=Courier New;fontSize=10;" parent="34" source="23" target="25" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="Auxiliares" style="whiteSpace=wrap;html=1;fontSize=10;fontFamily=Courier New;fillColor=#660000;dashed=0;" parent="34" vertex="1">
+                    <mxGeometry x="40" y="150" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="" style="edgeStyle=none;html=1;fontFamily=Courier New;fontSize=10;" parent="34" source="23" target="27" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" value="&lt;ol&gt;&lt;li&gt;&lt;span&gt;Main - Executado&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;Router - Config. Rotas&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;Controllers - Todas funções com req. HTTP utiliz. no Router&lt;/span&gt;&lt;br&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;ModelS - Guardar as entidades (users e publics)&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;Repos - interação com o banco de dados&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;fontFamily=Courier New;fontSize=10;" parent="34" vertex="1">
+                    <mxGeometry x="220" y="110" width="180" height="170" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="" style="edgeStyle=none;html=1;fontFamily=Courier New;fontSize=10;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="34" source="25" target="31" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="250" y="130" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="32" value="&lt;ol&gt;&lt;li&gt;&lt;span&gt;Config - Config de variavel de ambiente&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;Banco - Abre a conex. com o banco&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;Autenticação - cuida do login, token&lt;/span&gt;&lt;br&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;Middleware - entre req. e resp. em conjunto com o autent.&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;Segurança - lidar com senhas&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;Respostas - respostas devolvidas pela API&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;fontFamily=Courier New;fontSize=10;" parent="34" vertex="1">
+                    <mxGeometry y="230" width="200" height="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" value="" style="edgeStyle=none;html=1;fontFamily=Courier New;fontSize=10;" parent="34" source="27" target="32" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="35" value="" style="group" parent="1" vertex="1" connectable="0">
+                    <mxGeometry x="20" y="10" width="350" height="350" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="35" vertex="1">
+                    <mxGeometry width="350" height="350" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="Aplicação Web&lt;br&gt;(Front-end)" style="whiteSpace=wrap;html=1;shadow=0;fillColor=#006666;" parent="35" vertex="1">
+                    <mxGeometry x="20" y="60" width="110" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="Banco de Dados" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;shadow=0;fillColor=#663300;" parent="35" vertex="1">
+                    <mxGeometry x="45" y="230" width="60" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="API&lt;br&gt;(Back-end)" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;shadow=0;fillColor=#000000;" parent="35" vertex="1">
+                    <mxGeometry x="220" y="130" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="&lt;font face=&quot;Courier New&quot;&gt;Chama a API&lt;/font&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" parent="35" vertex="1">
+                    <mxGeometry x="135" y="50" width="90" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="ESTRUTURA DA APLICAÇÃO" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" parent="35" vertex="1">
+                    <mxGeometry x="80" width="180" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="" style="endArrow=classic;startArrow=classic;html=1;entryX=0.855;entryY=0;entryDx=0;entryDy=4.35;entryPerimeter=0;" parent="35" source="6" target="5" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="209.99999999999994" y="140" as="sourcePoint"/>
+                        <mxPoint x="271.6551161764826" y="121.38726852940829" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="17" value="" style="endArrow=classic;startArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.092;entryY=0.239;entryDx=0;entryDy=0;entryPerimeter=0;" parent="35" source="2" target="6" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="160" y="250" as="sourcePoint"/>
+                        <mxPoint x="210" y="200" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="19" value="&lt;h3&gt;&lt;font style=&quot;font-size: 10px ; font-weight: normal&quot; face=&quot;Courier New&quot;&gt;Comunica entre Aplic. e DB&lt;/font&gt;&lt;/h3&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;align=center;" parent="35" vertex="1">
+                    <mxGeometry x="210" y="210" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="36" value="" style="group;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#3700CC;" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="20" y="500" width="690" height="690" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="36">
+                    <mxGeometry width="690" height="690" as="geometry"/>
+                </mxCell>
+                <mxCell id="38" value="PACOTES PARA APLICAÃO WEB" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="36">
+                    <mxGeometry x="245.00333333333333" width="200" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="39" value="PACOTES" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.externalEntity;fontFamily=Courier New;fontSize=10;fillColor=#003366;" vertex="1" parent="36">
+                    <mxGeometry x="123.62666666666667" y="260" width="148.73333333333335" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="40" value="Principais" style="whiteSpace=wrap;html=1;fontSize=10;fontFamily=Courier New;fillColor=#4C0099;dashed=0;" vertex="1" parent="36">
+                    <mxGeometry x="105.9933333333334" y="105" width="184" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="41" value="" style="edgeStyle=none;html=1;fontFamily=Courier New;fontSize=10;" edge="1" parent="36" source="39" target="40">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="42" value="Utilidades" style="whiteSpace=wrap;html=1;fontSize=10;fontFamily=Courier New;fillColor=#660000;dashed=0;" vertex="1" parent="36">
+                    <mxGeometry x="105.99333333333334" y="390" width="184" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="43" value="" style="edgeStyle=none;html=1;fontFamily=Courier New;fontSize=10;" edge="1" parent="36" source="39" target="42">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="44" value="&lt;ol&gt;&lt;li&gt;&lt;span&gt;Main - Executado&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;Router - Config. Rotas&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;Controllers - Todas funções com req. HTTP utiliz. no Router&lt;/span&gt;&lt;br&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;ModelS - Guardar as entidades (users e publics)&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;fontFamily=Courier New;fontSize=10;" vertex="1" parent="36">
+                    <mxGeometry x="360.00333333333333" y="50" width="276" height="170" as="geometry"/>
+                </mxCell>
+                <mxCell id="45" value="" style="edgeStyle=none;html=1;fontFamily=Courier New;fontSize=10;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="36" source="40" target="44">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="383.33333333333337" y="130" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="46" value="&lt;ol&gt;&lt;li&gt;&lt;span&gt;Config - Config de variavel de ambiente&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;Cookies - Salvar os dados de autenticação no Browser&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;Middleware - entre req. e resp. em conjunto com o autent.&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;Requisições&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;Respostas&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;Utils - Lidar com os Templates&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;fontFamily=Courier New;fontSize=10;" vertex="1" parent="36">
+                    <mxGeometry x="44.66000000000004" y="469" width="306.6666666666667" height="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="47" value="" style="edgeStyle=none;html=1;fontFamily=Courier New;fontSize=10;" edge="1" parent="36" source="42" target="46">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="49" value="Assets (JS e CSS)&lt;br&gt;Views (HTML)" style="whiteSpace=wrap;html=1;fontSize=10;fontFamily=Courier New;fillColor=#d80073;dashed=0;fontColor=#ffffff;strokeColor=#A50040;" vertex="1" parent="36">
+                    <mxGeometry x="394" y="240" width="180" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="50" value="" style="edgeStyle=none;html=1;" edge="1" parent="36" source="39" target="49">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
