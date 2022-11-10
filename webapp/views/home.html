@@ -1,15 +1,13 @@
-<!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>River Social Network</title>
-    <link href="/assets/css/bootstrap.css" rel="stylesheet"/>
+    <link href="/assets/css/bootstrap.css" rel="stylesheet" />
 </head>
-<body>
 
- 
+<body>
     {{ template "cabecalho" }}
 
     <div class="container-fluid">
@@ -20,12 +18,15 @@
                     <form id="nova-publicacao">
                         <div class="form-group">
                             <label for="titulo">Título</label>
-                            <input type="text" class="form-control" id="titulo" name="titulo" required="required" placeholder="Insira o Título da sua Publicação">
+                            <input type="text" class="form-control" id="titulo" name="titulo" required="required"
+                                placeholder="Insira o título da sua publicação">
                         </div>
                         <div class="form-group">
                             <label for="conteudo">Conteúdo</label>
-                            <textarea class="form-control" id="conteudo" name="conteudo" required="required" placeholder="Insira o conteúdo da sua Publicação"></textarea>
+                            <textarea class="form-control" id="conteudo" name="conteudo" required="required"
+                                placeholder="Insira o conteúdo da sua publicação"></textarea>
                         </div>
+
                         <button class="btn btn-primary" type="submit">
                             Publicar
                         </button>
@@ -33,24 +34,22 @@
                 </fieldset>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-7 col-lg-7 col-xl-7">
-
-              {{ range .Publicacoes }}
-                    {{ if(eq .AutorID $.UsuarioID)}}
-                    {{ template "publicacao-com-permissao" . }}
+                {{ range .Publicacoes }}
+                    {{ if (eq .AutorID $.UsuarioID) }}
+                        {{ template "publicacao-com-permissao" . }}
                     {{ else }}
-                    {{ template "publicacao-sem-permissao" . }}
+                        {{ template "publicacao-sem-permissao" . }}
                     {{ end }}
-              {{ end }}
-          </div>
+                {{ end }}
+            </div>
         </div>
-      </div>
+    </div>
 
-  {{ template "rodape" }}
+    {{ template "rodape" }}
 
-  {{ template "scripts" }}
+    {{ template "scripts"}}
 
-  <script src="/assets/js/publicacoes.js"></script>
-
+    <script src="/assets/js/publicacoes.js"></script>
 </body>
 
 </html>
