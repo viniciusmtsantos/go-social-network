@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="RWvEkzyk86XV6dCm75ku" name="Page-1">
-        <mxGraphModel dx="884" dy="617" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="1110" dy="500" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -78,48 +78,48 @@
                 <mxCell id="19" value="&lt;h3&gt;&lt;font style=&quot;font-size: 10px ; font-weight: normal&quot; face=&quot;Courier New&quot;&gt;Comunica entre Aplic. e DB&lt;/font&gt;&lt;/h3&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;align=center;" parent="35" vertex="1">
                     <mxGeometry x="210" y="210" width="100" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="36" value="" style="group;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#3700CC;" vertex="1" connectable="0" parent="1">
+                <mxCell id="36" value="" style="group;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#3700CC;" parent="1" vertex="1" connectable="0">
                     <mxGeometry x="20" y="500" width="690" height="690" as="geometry"/>
                 </mxCell>
-                <mxCell id="37" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="36">
+                <mxCell id="37" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="36" vertex="1">
                     <mxGeometry width="690" height="690" as="geometry"/>
                 </mxCell>
-                <mxCell id="38" value="PACOTES PARA APLICAÃO WEB" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="36">
+                <mxCell id="38" value="PACOTES PARA APLICAÃO WEB" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" parent="36" vertex="1">
                     <mxGeometry x="245.00333333333333" width="200" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="39" value="PACOTES" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.externalEntity;fontFamily=Courier New;fontSize=10;fillColor=#003366;" vertex="1" parent="36">
+                <mxCell id="39" value="PACOTES" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.externalEntity;fontFamily=Courier New;fontSize=10;fillColor=#003366;" parent="36" vertex="1">
                     <mxGeometry x="123.62666666666667" y="260" width="148.73333333333335" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="40" value="Principais" style="whiteSpace=wrap;html=1;fontSize=10;fontFamily=Courier New;fillColor=#4C0099;dashed=0;" vertex="1" parent="36">
+                <mxCell id="40" value="Principais" style="whiteSpace=wrap;html=1;fontSize=10;fontFamily=Courier New;fillColor=#4C0099;dashed=0;" parent="36" vertex="1">
                     <mxGeometry x="105.9933333333334" y="105" width="184" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="41" value="" style="edgeStyle=none;html=1;fontFamily=Courier New;fontSize=10;" edge="1" parent="36" source="39" target="40">
+                <mxCell id="41" value="" style="edgeStyle=none;html=1;fontFamily=Courier New;fontSize=10;" parent="36" source="39" target="40" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="42" value="Utilidades" style="whiteSpace=wrap;html=1;fontSize=10;fontFamily=Courier New;fillColor=#660000;dashed=0;" vertex="1" parent="36">
+                <mxCell id="42" value="Utilidades" style="whiteSpace=wrap;html=1;fontSize=10;fontFamily=Courier New;fillColor=#660000;dashed=0;" parent="36" vertex="1">
                     <mxGeometry x="105.99333333333334" y="390" width="184" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="43" value="" style="edgeStyle=none;html=1;fontFamily=Courier New;fontSize=10;" edge="1" parent="36" source="39" target="42">
+                <mxCell id="43" value="" style="edgeStyle=none;html=1;fontFamily=Courier New;fontSize=10;" parent="36" source="39" target="42" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="44" value="&lt;ol&gt;&lt;li&gt;&lt;span&gt;Main - Executado&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;Router - Config. Rotas&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;Controllers - Todas funções com req. HTTP utiliz. no Router&lt;/span&gt;&lt;br&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;ModelS - Guardar as entidades (users e publics)&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;fontFamily=Courier New;fontSize=10;" vertex="1" parent="36">
+                <mxCell id="44" value="&lt;ol&gt;&lt;li&gt;&lt;span&gt;Main - Executado&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;Router - Config. Rotas&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;Controllers - Todas funções com req. HTTP utiliz. no Router&lt;/span&gt;&lt;br&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;ModelS - Guardar as entidades (users e publics)&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;fontFamily=Courier New;fontSize=10;" parent="36" vertex="1">
                     <mxGeometry x="360.00333333333333" y="50" width="276" height="170" as="geometry"/>
                 </mxCell>
-                <mxCell id="45" value="" style="edgeStyle=none;html=1;fontFamily=Courier New;fontSize=10;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="36" source="40" target="44">
+                <mxCell id="45" value="" style="edgeStyle=none;html=1;fontFamily=Courier New;fontSize=10;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="36" source="40" target="44" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="383.33333333333337" y="130" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="46" value="&lt;ol&gt;&lt;li&gt;&lt;span&gt;Config - Config de variavel de ambiente&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;Cookies - Salvar os dados de autenticação no Browser&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;Middleware - entre req. e resp. em conjunto com o autent.&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;Requisições&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;Respostas&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;Utils - Lidar com os Templates&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;fontFamily=Courier New;fontSize=10;" vertex="1" parent="36">
+                <mxCell id="46" value="&lt;ol&gt;&lt;li&gt;&lt;span&gt;Config - Config de variavel de ambiente&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;Cookies - Salvar os dados de autenticação no Browser&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;Middleware - entre req. e resp. em conjunto com o autent.&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;Requisições&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;Respostas&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;Utils - Lidar com os Templates&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;fontFamily=Courier New;fontSize=10;" parent="36" vertex="1">
                     <mxGeometry x="44.66000000000004" y="469" width="306.6666666666667" height="200" as="geometry"/>
                 </mxCell>
-                <mxCell id="47" value="" style="edgeStyle=none;html=1;fontFamily=Courier New;fontSize=10;" edge="1" parent="36" source="42" target="46">
+                <mxCell id="47" value="" style="edgeStyle=none;html=1;fontFamily=Courier New;fontSize=10;" parent="36" source="42" target="46" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="49" value="Assets (JS e CSS)&lt;br&gt;Views (HTML)" style="whiteSpace=wrap;html=1;fontSize=10;fontFamily=Courier New;fillColor=#d80073;dashed=0;fontColor=#ffffff;strokeColor=#A50040;" vertex="1" parent="36">
+                <mxCell id="49" value="Assets (JS e CSS)&lt;br&gt;Views (HTML)" style="whiteSpace=wrap;html=1;fontSize=10;fontFamily=Courier New;fillColor=#d80073;dashed=0;fontColor=#ffffff;strokeColor=#A50040;" parent="36" vertex="1">
                     <mxGeometry x="394" y="240" width="180" height="100" as="geometry"/>
                 </mxCell>
-                <mxCell id="50" value="" style="edgeStyle=none;html=1;" edge="1" parent="36" source="39" target="49">
+                <mxCell id="50" value="" style="edgeStyle=none;html=1;" parent="36" source="39" target="49" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
             </root>

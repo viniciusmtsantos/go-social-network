@@ -1,6 +1,19 @@
 <h1 align="center"> Aplicação de Social Network em Golang </h1>
 
-![Diagrama de Análise do Sistema](../../../../../../%C3%81rea%20de%20Trabalho/Captura%20de%20tela%202022-11-14%20142416.png)
+<p align="center">
+<img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge"/>
+</p>
 
-Resumo de Pacotes utilizados
+# Índice 
 
+* [Badges](#badges)
+* [Índice](#índice)
+* [Descrição do Projeto](#descrição-do-projeto)
+* [Status do Projeto](#status-do-Projeto)
+* [Funcionalidades e Demonstração da Aplicação](#funcionalidades-e-demonstração-da-aplicação)
+* [Acesso ao Projeto](#acesso-ao-projeto)
+* [Tecnologias utilizadas](#tecnologias-utilizadas)
+* [Pessoas Contribuidoras](#pessoas-contribuidoras)
+* [Pessoas Desenvolvedoras do Projeto](#pessoas-desenvolvedoras)
+* [Licença](#licença)
+* [Conclusão](#conclusão)
