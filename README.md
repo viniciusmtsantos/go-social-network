@@ -5,7 +5,6 @@
 * [Status do Projeto](#status-do-projeto)
 * [Funcionalidades da Aplicação](#funcionalidades-da-aplicação)
 * [Packages de Golang utilizados](#packages-de-golang-utilizados)
-* [Conclusão](#conclusão)
 
 ## Descrição do Projeto
 Uma aplicação em Golang que desenvolve uma rede social desenvolvida para que a parte front-end faça uma requisiçao para uma API, sendo, por sua vez, responsável pela comunicação entre o banco de dados e a aplicação em si, devolvendo uma resposta.
