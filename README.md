@@ -25,5 +25,4 @@ Uma aplicação em Golang que desenvolve uma rede social desenvolvida para que a
 ## Packages de Golang utilizados
 
 `package controllers:`
-
 A função deste pacote é ser uma camada intermediária para receber as requisições
