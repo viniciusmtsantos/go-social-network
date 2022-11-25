@@ -24,8 +24,6 @@ Uma aplicação em Golang que cria uma rede social desenvolvida para que a parte
 ## Packages de Golang utilizados
 
 `package controllers:`
-A função deste pacote é ser uma camada intermediária para receber as requisições
 
 `package router`
-A função deste pacote é redirecionar requisições para o respectivo
-handler
+
