@@ -22,7 +22,6 @@ Uma aplicação em Golang que cria uma rede social desenvolvida para que a parte
 - `Curtir e Descurtir publicações`: A aplicação permite que o usuário curta ou deixe de curtir uma publicação de autoria própria ou de outrem.
 
 ## Packages de Golang utilizados
-
 `package controllers:`
 
 `package router`
