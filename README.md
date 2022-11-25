@@ -7,7 +7,7 @@
 * [Packages de Golang utilizados](#packages-de-golang-utilizados)
 
 ## Descrição do Projeto
-Uma aplicação em Golang que desenvolve uma rede social desenvolvida para que a parte front-end faça uma requisiçao para uma API, sendo, por sua vez, responsável pela comunicação entre o banco de dados e a aplicação em si, devolvendo uma resposta.
+Uma aplicação em Golang que cria uma rede social desenvolvida para que a parte front-end faça uma requisiçao para uma API, sendo, por sua vez, responsável pela comunicação entre o banco de dados e a aplicação em si, devolvendo uma resposta.
 ## Status do Projeto
 <p align="center">
 <img src="https://img.shields.io/badge/status-Desenvolvido-green"/>
